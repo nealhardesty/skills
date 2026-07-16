@@ -1,0 +1,8 @@
+{
+  "name": "to-rfc",
+  "description": "Turn a conversation into a complete, process-conformant RFC package: README, threat model, readiness review, and warranted supplemental files.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neal Hardesty"
+  }
+}

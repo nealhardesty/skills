@@ -1,0 +1,8 @@
+{
+  "name": "to-prd",
+  "description": "Synthesize the current conversation into a PRD and publish it to the project's issue tracker.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neal Hardesty"
+  }
+}

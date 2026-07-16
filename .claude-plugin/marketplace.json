@@ -1,0 +1,34 @@
+{
+  "name": "nealhardesty-skills",
+  "owner": {
+    "name": "Neal Hardesty"
+  },
+  "description": "Generic Claude Code skills for working through the lifecycle of a feature or design: stress-testing a plan, writing it up as a PRD or RFC, reviewing an RFC, and handing off a session.",
+  "plugins": [
+    {
+      "name": "grill",
+      "source": "./skills/grill",
+      "description": "Interview the user relentlessly about a plan or design to stress-test it before building."
+    },
+    {
+      "name": "to-prd",
+      "source": "./skills/to-prd",
+      "description": "Synthesize the current conversation into a PRD and publish it to the project's issue tracker."
+    },
+    {
+      "name": "to-rfc",
+      "source": "./skills/to-rfc",
+      "description": "Turn a conversation into a complete, process-conformant RFC package: README, threat model, readiness review, and warranted supplemental files."
+    },
+    {
+      "name": "rfc-review",
+      "source": "./skills/rfc-review",
+      "description": "Deep, adversarial review of an RFC — verifies technology claims, audits architecture/schema/API, and lists what's missing."
+    },
+    {
+      "name": "session-handoff",
+      "source": "./skills/session-handoff",
+      "description": "Compact the current conversation into a dated handoff document for another agent to pick up."
+    }
+  ]
+}

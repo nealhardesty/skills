@@ -1,0 +1,8 @@
+{
+  "name": "rfc-review",
+  "description": "Deep, adversarial review of an RFC — verifies technology claims, audits architecture/schema/API, and lists what's missing.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neal Hardesty"
+  }
+}

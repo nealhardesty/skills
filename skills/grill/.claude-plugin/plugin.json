@@ -1,0 +1,8 @@
+{
+  "name": "grill",
+  "description": "Interview the user relentlessly about a plan or design to stress-test it before building.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neal Hardesty"
+  }
+}
