@@ -1,6 +1,6 @@
 ---
 name: humanize
-description: Rewrite prose to remove AI-generated tells, compress it for density, and fix errors — while preserving every fact, the author's voice, and any mandated structure or compliance terminology (RFC 2119, ISO clauses, legal boilerplate). Works on any prose: docs, RFCs, READMEs, PR descriptions, commit messages, emails. Use when the user asks to "humanize," "de-AI-ify," "de-slop," compress, tighten, proofread, or clean up a draft.
+description: Rewrite prose to remove AI-generated tells, compress it for density, and fix errors — while preserving every fact, the author's voice, and any mandated structure or compliance terminology (RFC 2119, ISO clauses, legal boilerplate). Works on any prose — docs, RFCs, READMEs, PR descriptions, commit messages, emails. Use when the user asks to "humanize," "de-AI-ify," "de-slop," compress, tighten, proofread, or clean up a draft.
 disable-model-invocation: true
 ---
 

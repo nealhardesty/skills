@@ -17,6 +17,12 @@ Descriptions should read consistently across these files (they can be worded for
 claude plugin validate .
 ```
 
+**`claude plugin validate` does NOT check `SKILL.md` frontmatter YAML.** The `npx skills` tool parses it strictly and *silently skips* any skill whose frontmatter won't parse — so a skill can pass plugin validation yet be invisible to `npx skills add`. Keep the frontmatter valid YAML: in particular, an unquoted `description` value must not contain a colon-space (`: `), which the parser reads as a nested mapping. Use an em-dash or reword instead. To verify a skill parses, confirm it appears in:
+
+```sh
+npx skills@latest add nealhardesty/skills --list
+```
+
 Removing a skill means deleting its folder **and** its entries in `marketplace.json` and both README locations. Renaming means doing both at once, keeping the folder name, `plugin.json` name, `marketplace.json` name, and SKILL.md `name` identical.
 
 ## Skill authoring conventions
