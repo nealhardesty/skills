@@ -1,0 +1,8 @@
+{
+  "name": "humanize",
+  "description": "Rewrite a technical document to remove AI-generated tells, compress it for density, and fix common errors, while preserving every fact and mandated structure.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neal Hardesty"
+  }
+}

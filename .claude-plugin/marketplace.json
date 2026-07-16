@@ -29,6 +29,11 @@
       "name": "session-handoff",
       "source": "./skills/session-handoff",
       "description": "Compact the current conversation into a dated handoff document for another agent to pick up."
+    },
+    {
+      "name": "humanize",
+      "source": "./skills/humanize",
+      "description": "Rewrite a document to remove AI-generated tells, compress it, and fix common errors, while preserving every fact and mandated structure."
     }
   ]
 }
