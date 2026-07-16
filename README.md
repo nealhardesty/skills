@@ -54,6 +54,10 @@ Run `npx skills@latest --help` for other options (updating, listing what's insta
 | [`session-handoff`](skills/session-handoff) (`handoff`) | "hand this off", "write a handoff doc" | Compacts the current conversation into a dated handoff document for another agent to pick up — references existing artifacts (PRDs, plans, issues) instead of duplicating them, and redacts sensitive information. |
 | [`humanize`](skills/humanize) | "humanize this doc", "de-AI-ify this", "clean this up" | Rewrites a document to strip AI-generated tells (filler vocabulary, summary sandwiches, uniform sentence rhythm), compresses redundant prose, and fixes common errors (grammar, inconsistent terminology, broken Markdown, dangling references) — while preserving every fact and any mandated structure or compliance terminology (RFC 2119, ISO clauses, legal boilerplate). |
 
+## Contributing
+
+Adding or changing a skill? See [AGENTS.md](AGENTS.md) — every skill's identity is duplicated across `SKILL.md`, `plugin.json`, `marketplace.json`, and this README, and all of them must be updated in the same change.
+
 ## License
 
 See [LICENSE](LICENSE).
