@@ -23,6 +23,7 @@ claude plugin install to-rfc@nealhardesty-skills
 claude plugin install rfc-review@nealhardesty-skills
 claude plugin install session-handoff@nealhardesty-skills
 claude plugin install humanize@nealhardesty-skills
+claude plugin install reverse-spec-gen@nealhardesty-skills
 ```
 
 To update later: `claude plugin marketplace update nealhardesty-skills`. To remove a skill: `claude plugin uninstall <name>`.
@@ -53,6 +54,7 @@ Run `npx skills@latest --help` for other options (updating, listing what's insta
 | [`rfc-review`](skills/rfc-review) | "review this RFC", "what's wrong with this RFC" | Deep, adversarial review of an RFC: checks structural completeness against the template, verifies every non-trivial technology/vendor claim against outside research (not training-data recall), and critiques the architecture, schema, and API for inconsistencies, missing lifecycle/DR stories, and trust-boundary gaps. |
 | [`session-handoff`](skills/session-handoff) (`handoff`) | "hand this off", "write a handoff doc" | Compacts the current conversation into a dated handoff document for another agent to pick up — references existing artifacts (PRDs, plans, issues) instead of duplicating them, and redacts sensitive information. |
 | [`humanize`](skills/humanize) | "humanize this doc", "de-AI-ify this", "clean this up" | Rewrites a document to strip AI-generated tells (filler vocabulary, summary sandwiches, uniform sentence rhythm), compresses redundant prose, and fixes common errors (grammar, inconsistent terminology, broken Markdown, dangling references) — while preserving every fact and any mandated structure or compliance terminology (RFC 2119, ISO clauses, legal boilerplate). |
+| [`reverse-spec-gen`](skills/reverse-spec-gen) | "document this codebase", "write a spec for this system" | Reverse-engineers an undocumented codebase into `SPEC.md` (architecture, dependencies, data models, integrations, for engineers) and `USERGUIDE.md` (install/configure/run/use, for operators), grounding every claim in what the code and config actually show and flagging what couldn't be determined. |
 
 ## Contributing
 

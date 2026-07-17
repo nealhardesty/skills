@@ -34,6 +34,11 @@
       "name": "humanize",
       "source": "./skills/humanize",
       "description": "Rewrite a document to remove AI-generated tells, compress it, and fix common errors, while preserving every fact and mandated structure."
+    },
+    {
+      "name": "reverse-spec-gen",
+      "source": "./skills/reverse-spec-gen",
+      "description": "Reverse-engineer an undocumented codebase into a grounded SPEC.md (architecture) and USERGUIDE.md (install/run/use)."
     }
   ]
 }

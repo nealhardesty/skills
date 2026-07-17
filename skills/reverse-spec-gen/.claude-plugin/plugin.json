@@ -1,0 +1,8 @@
+{
+  "name": "reverse-spec-gen",
+  "description": "Reverse-engineers an existing codebase into SPEC.md (technical architecture) and USERGUIDE.md (how to install, configure, and use it), grounded entirely in the code and config.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Neal Hardesty"
+  }
+}
